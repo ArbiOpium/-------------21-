@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+// 1.
+// function compareNumbers(a, b) 
+// {
+//     if (a < b) return -1;
+//     if (a > b) return 1;
+//     return 0;
+// }
+// 2.
+// function factorial(n) 
+// {
+//     if (n === 0 || n === 1) return 1;
+//     return n * factorial(n - 1);
+// }
+// document.write(`Факториал 43 =${factorial(43)} <br/>`);
+// 3.
+// function combineDigits(a, b, c) 
+// {
+//     return Number(`${a}${b}${c}`);
+// }
+// 4.
+// function calculateArea(length, width = length) 
+// {
+//     return length * width;
+// }
+// 5.
+// function isPerfectNumber(num) 
+// {
+//     let sum = 0;
+//     for (let i = 1; i <= num / 2; i++) 
+// {
+//         if (num % i === 0) sum += i;
+// }
+//     return sum === num;
+// }
+// 6.
+// function isPerfect(num) 
+// {
+//     let sum = 0;
+//     for (let i = 1; i <= num / 2; i++) 
+// {
+//         if (num % i === 0) {
+//             sum += i;
+// }
+// }
+//     return sum === num;
+// }
+
+// function findPerfectNumbersInRange(min, max) 
+// {
+//     let result = '';
+//     for (let i = min; i <= max; i++) 
+// {
+//         if (isPerfect(i)) 
+// {
+//             result += i + ' ';
+// }
+// }
+//     return result;
+// }
+// document.write(`Совершенные числа: ${findPerfectNumbersInRange(1, 4327)} <br/>`);
+// 7.
+// 8.
+// function timeToSeconds(hours, minutes, seconds) 
+// {
+//     return hours * 3600 + minutes * 60 + seconds;
+// }
+// document.write(` ${timeToSeconds(42, 27, 100)} секунд <br/>`);
+// 9.
+// let Time = function (seconds) 
+// {
+//     hours = (seconds - (seconds % 3600)) / 3600;
+//     seconds = seconds % 3600;
+//     minutes = (seconds - (seconds % 60)) / 60;
+//     secs = seconds % 60;
+// }
+// function timeToSeconds(hours, minutes, seconds) 
+// {
+//     return hours * 3600 + minutes * 60 + seconds;
+// }
+// 10.
+// function timeToSeconds(hours, minutes, seconds) 
+// {
+//     return hours * 3600 + minutes * 60 + seconds;
+// }
+
+// function timeDifference(h1, m1, s1, h2, m2, s2) 
+// {
+//     let time1InSeconds = timeToSeconds(h1, m1, s1);
+//     let time2InSeconds = timeToSeconds(h2, m2, s2);
+
+//     let diffInSeconds;
+//     if (time1InSeconds > time2InSeconds) 
+//     {
+//         diffInSeconds = time1InSeconds - time2InSeconds;
+//     } else 
+//     {
+//         diffInSeconds = time2InSeconds - time1InSeconds;
+//     }
+
+//     let hours = Math.floor(diffInSeconds / 3600);
+//     let minutes = Math.floor((diffInSeconds % 3600) / 60);
+//     let seconds = diffInSeconds % 60;
+
+//     let timeString = '';
+    
+//     if (hours < 10) 
+//     {
+//         timeString += '0';
+//     }
+//     timeString += hours + ':';
+
+//     if (minutes < 10) 
+//     {
+//         timeString += '0';
+//     }
+//     timeString += minutes + ':';
+
+//     if (seconds < 10) 
+//     {
+//         timeString += '0';
+//     }
+//     timeString += seconds;
+
+//     return timeString;
+// }
+// document.write(`разница ${timeDifference(42, 15, 27, 14, 15, 59)} <br/>`);
+// document.write(`разница ${timeDifference(2, 3, 5, 0, 0, 0)} <br/>`);
+    </script>
+</body>
+</html>
